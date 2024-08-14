@@ -1,0 +1,146 @@
+
+{
+  "ID": 52,
+  "Name": "Twilight Glacier",
+  "Resource Location": "twilightforest:twilight_glacier",
+  "Class": "twilightforest.biomes.TFBiomeGlacier",
+  "Root Height": 0.1,
+  "Height Variation": 0.2,
+  "Top Block": "minecraft:grass[snowy\u003dfalse]",
+  "Filler Block": "minecraft:dirt[snowy\u003dfalse,variant\u003ddirt]",
+  "Ocean Top Block": "Disabled. Activate in BiomeTweakerCore.",
+  "Ocean Filler Block": "Disabled. Activate in BiomeTweakerCore.",
+  "Actual Filler Blocks": "Disabled. Activate in BiomeTweakerCore.",
+  "Grass Color": "Disabled. Activate in BiomeTweakerCore.",
+  "Foliage Color": "Disabled. Activate in BiomeTweakerCore.",
+  "Water Color": "4159204",
+  "Temperature": 0.0,
+  "Humidity": 0.1,
+  "Water Tint": 4159204,
+  "Enable Rain": true,
+  "Enable Snow": true,
+  "Dictionary Types": [
+    "COLD",
+    "WASTELAND",
+    "SNOWY",
+    "TWILIGHT"
+  ],
+  "BiomeManager Entries": {},
+  "Spawnable Creatures": [
+    {
+      "Entity Class": "twilightforest.entity.passive.EntityTFPenguin",
+      "Weight": 10,
+      "Min Group Count": 4,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "com.Fishmod.mod_LavaCow.entities.EntityPingu",
+      "Weight": 20,
+      "Min Group Count": 4,
+      "Max Group Count": 8
+    }
+  ],
+  "Spawnable Monsters": [
+    {
+      "Entity Class": "electroblob.wizardry.entity.living.EntityIceWraith",
+      "Weight": 3,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "electroblob.wizardry.entity.living.EntityLightningWraith",
+      "Weight": 1,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "electroblob.wizardry.entity.living.EntityEvilWizard",
+      "Weight": 3,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "com.Fishmod.mod_LavaCow.entities.EntityZombieFrozen",
+      "Weight": 20,
+      "Min Group Count": 8,
+      "Max Group Count": 16
+    },
+    {
+      "Entity Class": "com.Fishmod.mod_LavaCow.entities.tameable.EntityMimic",
+      "Weight": 20,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "com.Fishmod.mod_LavaCow.entities.EntityUndertaker",
+      "Weight": 8,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "com.turtledove.necropolisofnostalgia.entity.enemies.EntityNecropolisSkeleton",
+      "Weight": 80,
+      "Min Group Count": 1,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "com.turtledove.necropolisofnostalgia.entity.enemies.EntityAxeBeak",
+      "Weight": 70,
+      "Min Group Count": 1,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "com.turtledove.necropolisofnostalgia.entity.enemies.EntityVampireBat",
+      "Weight": 80,
+      "Min Group Count": 1,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "com.turtledove.necropolisofnostalgia.entity.enemies.EntityBooglin",
+      "Weight": 80,
+      "Min Group Count": 1,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "com.turtledove.necropolisofnostalgia.entity.enemies.EntityNecropolisSpider",
+      "Weight": 65,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "com.turtledove.necropolisofnostalgia.entity.enemies.EntityFugu",
+      "Weight": 80,
+      "Min Group Count": 2,
+      "Max Group Count": 3
+    },
+    {
+      "Entity Class": "com.unoriginal.iceologer.entity.Entity.EntityIceologer",
+      "Weight": 10,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "com.bobmowzie.mowziesmobs.server.entity.grottol.EntityGrottol",
+      "Weight": 2,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    }
+  ],
+  "Spawnable Water Creatures": [],
+  "Spawnable Cave Creatures": [
+    {
+      "Entity Class": "net.minecraft.entity.passive.EntityBat",
+      "Weight": 10,
+      "Min Group Count": 8,
+      "Max Group Count": 8
+    },
+    {
+      "Entity Class": "twilightforest.entity.passive.EntityTFMobileFirefly",
+      "Weight": 10,
+      "Min Group Count": 8,
+      "Max Group Count": 8
+    }
+  ],
+  "Spawn Biome": false,
+  "Tweaked": false
+}
